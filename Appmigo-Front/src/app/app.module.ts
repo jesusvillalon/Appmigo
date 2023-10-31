@@ -7,6 +7,8 @@ import { MainPageComponent } from './pages/main-page/main-page.component';
 import { GiftPageComponent } from './pages/gift-page/gift-page.component';
 import { InstructionsComponent } from './components/instructions/instructions.component';
 import { ParticipantsComponent } from './components/participants/participants.component';
+import { SharedModule } from './shared/shared.module';
+import { BlacklistPageComponent } from './pages/blacklist-page/blacklist-page.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +16,13 @@ import { ParticipantsComponent } from './components/participants/participants.co
     MainPageComponent,
     GiftPageComponent,
     InstructionsComponent,
-    ParticipantsComponent
+    ParticipantsComponent,
+    BlacklistPageComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
