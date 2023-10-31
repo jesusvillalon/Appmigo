@@ -1,0 +1,29 @@
+.instructions-title-container{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 25px;
+}
+.instructions-circle-container{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #5AC8FA;
+}
+.first-step-title{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: -20px;
+  padding: 0 40px;
+}
+.title-number{
+  color: #FF7C00;
+}
+.instructions-list-container{
+  padding: 0 40px 0 20px;
+  margin-top: -20px;
+}
+li{
+  margin-bottom: 10px;
+}
