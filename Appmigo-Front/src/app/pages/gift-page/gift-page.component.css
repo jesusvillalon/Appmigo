@@ -1,0 +1,26 @@
+.gift-instructions-title-container{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 25px;
+}
+.gift-instructions-circle-container{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #5AC8FA;
+}
+.fourth-step-title{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: -20px;
+  padding: 0 40px;
+}
+.title-number{
+  color: #D51246;
+}
+.gift-instructions-list-container{
+  padding: 0 40px 0 20px;
+  margin-top: -20px;
+}
