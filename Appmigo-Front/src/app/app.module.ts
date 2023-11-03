@@ -9,6 +9,7 @@ import { InstructionsComponent } from './components/instructions/instructions.co
 import { ParticipantsComponent } from './components/participants/participants.component';
 import { SharedModule } from './shared/shared.module';
 import { BlacklistPageComponent } from './pages/blacklist-page/blacklist-page.component';
+import { GiftListComponent } from './components/gift-list/gift-list.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { BlacklistPageComponent } from './pages/blacklist-page/blacklist-page.co
     GiftPageComponent,
     InstructionsComponent,
     ParticipantsComponent,
-    BlacklistPageComponent
+    BlacklistPageComponent,
+    GiftListComponent
   ],
   imports: [
     BrowserModule,
